@@ -50,7 +50,7 @@ The ETL pipeline is orchestrated using Apache Airflow, which manages the schedul
 Airflow also provides a user-friendly web interface for visualizing pipeline progress, monitoring task execution, and managing workflows effectively.
 http://localhost:8080/dags/etl_global-housing/  
 
-Note: The provided link assumes that Apache Airflow is running locally on port 8090. If your Airflow instance is hosted on a different machine or configured to use a different port, please adjust the URL accordingly.
+Note: The provided link assumes that Apache Airflow is running locally on port 8080. If your Airflow instance is hosted on a different machine or configured to use a different port, please adjust the URL accordingly.
 
 
 # **Usage**
