@@ -52,6 +52,7 @@ def transform():
     logging.info('Transforming data...')
     try:
         for df in extract_file():
+            df.dropna(inplace=True)
             df.columns = (
                 df.columns.str.strip()
                 .str.lower().str.
