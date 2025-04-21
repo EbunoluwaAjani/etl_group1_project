@@ -19,8 +19,8 @@ This section provides step-by-step instructions to help you set up and run the p
 
 # **Installation & Setup**
 - Clone the project repository to your local machine using Git:
-git clone https://github.com/GLOBAL-HOUSING/GLOBAL-HOUSING.git
-cd GLOBAL-HOUSING
+git clone https://github.com/GLOBAL-HOUSING/GLOBAL-HOUSING.
+git cd GLOBAL-HOUSING
 
 # **Data Extraction from Kaggle API**
 The data extraction process begins by exporting raw data from the Kaggle API. Using Python, we establish a connection to the Kaggle API to retrieve the required datasets. This extraction step is orchestrated by Apache Airflow, which ensures that data is pulled consistently and reliably into the processing environment, setting the stage for the subsequent ETL (Extract, Transform, Load) operations.
@@ -54,7 +54,7 @@ Note: The provided link assumes that Apache Airflow is running locally on port 8
 
 
 # **Usage**
-Here’s a well-structured section you can use for Instructions on executing ETL processes, scheduling via Airflow, and accessing Power BI reports:
+Here’s a well-structured section you can use for Instructions on executing ETL processes, scheduling via Airflow, and accessing Power BI reports
 
 # **Contributing**
 We welcome contributions from the community! Please take a moment to read our contributing guidelines to get started.
